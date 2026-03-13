@@ -21,7 +21,7 @@ body{
 
   background-image:
     linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-    url("전.jpg");
+    url("전.jpg");      // 전사진
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -127,7 +127,7 @@ h1{
 
   yesBtn.addEventListener("click", () => {
     document.body.style.backgroundImage =
-      'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("후.jpg")';
+      'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("후.jpg")';    // 후사진
     if (result) result.style.display = "block";
     createHearts();
   });
